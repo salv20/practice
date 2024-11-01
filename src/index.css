@@ -13,7 +13,11 @@ select:focus > option:checked {
   display: none;
 }
 
+<<<<<<< HEAD
 .login_input {
+=======
+.auth_input {
+>>>>>>> 92e170a5a615cd3d1a69b9bf5c1b2bf3acc387e3
   @apply w-full font-roboto font-[400]  placeholder:text-[#848484] outline-none h-[46px] border-[1.25px] border-[#CECECE] px-[12px] py-[11px] h-[46px] rounded-[4px];
 }
 
@@ -26,5 +30,9 @@ select:focus > option:checked {
 }
 
 .forgetPW-scroll {
+<<<<<<< HEAD
   @apply px-[10px] lg:h-[100vh] lg:overflow-scroll py-[40px] text-center mx-auto;
+=======
+  @apply px-[10px] lg:h-[100vh] overflow-scroll py-[40px] text-center mx-auto;
+>>>>>>> 92e170a5a615cd3d1a69b9bf5c1b2bf3acc387e3
 }
