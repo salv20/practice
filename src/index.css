@@ -8,6 +8,7 @@ select:focus > option:checked {
   background: #37bbca !important;
 }
 
+.form-scroll::-webkit-scrollbar,
 .forgetPW-scroll::-webkit-scrollbar {
   display: none;
 }
@@ -20,6 +21,6 @@ select:focus > option:checked {
   @apply w-[153px] h-[0.75px] bg-[#CECECE] hidden md:block;
 }
 
-.forgetPW-scroll {
-  @apply px-[10px] lg:h-[100vh] lg:overflow-scroll py-[40px] text-center mx-auto;
+.form-scroll {
+  @apply px-[10px] lg:h-[100vh] grid items-center lg:overflow-scroll py-[40px] text-center mx-auto;
 }
