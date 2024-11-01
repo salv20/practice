@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Login from "./pages/login";
 
 const App = () => {
@@ -6,15 +5,6 @@ const App = () => {
     <div>
       <Login />
     </div>
-=======
-import Signup from "./signup";
-
-const App = () => {
-  return (
-    <main>
-      <Signup />
-    </main>
->>>>>>> 92e170a5a615cd3d1a69b9bf5c1b2bf3acc387e3
   );
 };
 
