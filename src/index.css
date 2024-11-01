@@ -13,7 +13,7 @@ select:focus > option:checked {
   display: none;
 }
 
-.login_input {
+.auth_input {
   @apply w-full font-roboto font-[400]  placeholder:text-[#848484] outline-none h-[46px] border-[1.25px] border-[#CECECE] px-[12px] py-[11px] h-[46px] rounded-[4px];
 }
 
@@ -23,4 +23,8 @@ select:focus > option:checked {
 
 .form-scroll {
   @apply px-[10px] lg:h-[100vh] grid items-center lg:overflow-scroll py-[40px] text-center mx-auto;
+}
+
+.forgetPW-scroll {
+  @apply px-[10px] lg:h-[100vh] overflow-scroll py-[40px] text-center mx-auto;
 }
