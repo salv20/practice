@@ -1,10 +1,10 @@
-import Login from "./login";
+import Login from "./pages/login";
 
 const App = () => {
   return (
-    <main>
+    <div>
       <Login />
-    </main>
+    </div>
   );
 };
 
