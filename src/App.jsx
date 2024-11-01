@@ -1,9 +1,9 @@
-import Login from "./login";
+import Forgetpass from "./Forgetpass";
 
 const App = () => {
   return (
     <main>
-      <Login />
+      <Forgetpass />
     </main>
   );
 };
